@@ -1,0 +1,25 @@
+header {
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white; 
+  }
+  
+  header div {
+    font-size: 14px;
+    display: flex;
+    color: black;
+    font-weight: 600;
+    width: 350px;
+    justify-content: space-around;
+  }
+  
+  header div a:hover {
+    color: gray;
+  }
+  
+  header img {
+    width: 70px;
+    margin: 0 20px;
+  }

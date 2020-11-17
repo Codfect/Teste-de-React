@@ -1,0 +1,54 @@
+
+.error {
+    display: flex;
+    padding: 50px 0 50px 50px;
+    height: 58.2vh;
+  }
+  
+  .error div {
+    margin: auto auto auto 0;
+    width:90%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    color: black;
+  }
+  
+  .error div h1 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 50px;
+   
+  }
+  
+  .error div p {
+    font-size: 20px;
+    line-height: 30px;
+    margin: auto;
+    width: 70%;
+  }
+  
+  .error img {
+    width: 40%;
+    margin: auto 0 auto 50px;
+    border-radius: 20px 0 0 20px;
+    min-width: 310px;
+    max-height: 55vh;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 1050px) {
+    .error {
+      align-items: center;
+      justify-content: center;
+      padding: 50px 0;
+    }
+    
+    .error div {
+      margin: auto;
+      text-align: center;
+    }
+  }
